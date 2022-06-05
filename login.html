@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - Finance Mobile Application-UX/UI Design Screen One</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap'>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        * {
+            font-family: "Poppins";
+        }
+        
+        body {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            overflow-y: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            {
+                {
+                    -- background: #dde5f4;
+                    --
+                }
+            }
+            background-image: linear-gradient(to bottom right, #b4433d, #162336);
+            height: 100vh;
+        }
+        
+        .screen-1 {
+            background: white;
+            padding: 2em;
+            padding-bottom: 1em;
+            display: flex;
+            {
+                {
+                    -- height: 20em;
+                    --
+                }
+            }
+            line-height: 10px;
+            margin-bottom:10px;
+            flex-direction: column;
+            border-radius: 30px;
+            {
+                {
+                    -- box-shadow: 0 0 2em #f6f6f6;
+                    --
+                }
+            }
+            gap: 2em;
+        }
+        
+        .screen-1 .logo {
+            margin-top: -3em;
+        }
+        
+        .screen-1 .email {
+            background: white;
+            box-shadow: 0 0 2em #e6e9f9;
+            padding: 1em;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5em;
+            border-radius: 10px;
+            color: #4d4d4d;
+            margin-top: -3em;
+        }
+        
+        .screen-1 .email input {
+            outline: none;
+            border: none;
+        }
+        
+        .screen-1 .email input::-moz-placeholder {
+            color: black;
+            font-size: 0.9em;
+        }
+        
+        .screen-1 .email input:-ms-input-placeholder {
+            color: black;
+            font-size: 0.9em;
+        }
+        
+        .screen-1 .email input::placeholder {
+            color: black;
+            font-size: 0.9em;
+        }
+        
+        .screen-1 .email ion-icon {
+            color: #4d4d4d;
+            margin-bottom: -0.2em;
+        }
+        
+        .screen-1 .password {
+            background: white;
+            box-shadow: 0 0 2em #e6e9f9;
+            padding: 1em;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5em;
+            border-radius: 10px;
+            color: #4d4d4d;
+        }
+        
+        .screen-1 .password input {
+            outline: none;
+            border: none;
+        }
+        
+        .screen-1 .password input::-moz-placeholder {
+            color: black;
+            font-size: 0.9em;
+        }
+        
+        .screen-1 .password input:-ms-input-placeholder {
+            color: black;
+            font-size: 0.9em;
+        }
+        
+        .screen-1 .password input::placeholder {
+            color: black;
+            font-size: 0.9em;
+        }
+        
+        .screen-1 .password ion-icon {
+            color: #4d4d4d;
+            margin-bottom: -0.2em;
+        }
+        
+        .screen-1 .password .show-hide {
+            margin-right: -5em;
+        }
+        
+        .screen-1 .login {
+            padding: 1em;
+            background: #0067f2;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+        
+        button {
+            cursor: pointer;
+        }
+        
+        img {
+            width: 50pt;
+            height: 10pt;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="screen-1">
+        <span style="line-height: 0ch;padding-bottom: -1000em;">
+            <b>Wellcome!</b> &nbsp;&nbsp;&nbsp;&nbsp;
+            <img style="width:30px;height:15px" src="./img/logo1.png" alt="pngwing-com-3" border="0" /><b
+                style="color:red">&nbsp&nbsp&nbsp TOYOTA</b>
+        </span>
+
+        <text style="font-size: 1ch">Login to your account!</text>
+        <span></span>
+        <span></span> {{--
+        <div class="logo"></div> --}}
+        <div class="email">
+            <div class="sec-2">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="email" name="email" placeholder="Email" />
+            </div>
+        </div>
+        <div class="password">
+            <div class="sec-2">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input class="pas" type="password" name="password" placeholder="Password" />
+            </div>
+        </div>
+        <div>
+            <input type="checkbox" name="" id=""> Remember me</div>
+        <button class="login"><a href="{{ url('/index2') }}"></a> Sign in </button>
+    </div>
+    <!-- partial -->
+
+</body>
+
+</html>
