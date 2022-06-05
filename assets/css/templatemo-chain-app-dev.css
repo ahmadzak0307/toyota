@@ -328,7 +328,7 @@ figcaption {
     .white-button a {
         display: inline-block !important;
         padding: 10px 20px !important;
-        color: #4b8ef1 !important;
+        color: #ACB5BD !important;
         text-transform: capitalize;
         font-size: 15px;
         background-color: #fff;
@@ -1011,7 +1011,7 @@ figcaption {
     }
     .services:after {
         content: '';
-        background-image: url(../images/services-left-dec.png);
+        /* background-image: url(../images/services-left-dec.png); */
         background-repeat: no-repeat;
         position: absolute;
         left: 0;
@@ -1022,7 +1022,7 @@ figcaption {
     }
     .services:before {
         content: '';
-        background-image: url(../images/services-right-dec.png);
+        /* background-image: url(../images/services-right-dec.png); */
         background-repeat: no-repeat;
         position: absolute;
         right: 0;
@@ -1509,7 +1509,7 @@ figcaption {
     --------------------------------------------- 
     */
     footer {
-        background-image: url(../images/footer-bg.png);
+        /* background-image: url(../images/footer-bg.png); */
         background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -3037,7 +3037,7 @@ Services Style
 
 .services:after {
     content: '';
-    background-image: url(../images/services-left-dec.png);
+    /* background-image: url(../images/services-left-dec.png); */
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
@@ -3049,7 +3049,7 @@ Services Style
 
 .services:before {
     content: '';
-    background-image: url(../images/services-right-dec.png);
+    /* background-image: url(../images/services-right-dec.png); */
     background-repeat: no-repeat;
     position: absolute;
     right: 0;
@@ -3075,7 +3075,7 @@ Services Style
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     border-radius: 10px;
-    border-top-right-radius: 50px;
+    /* border-top-right-radius: 50px; */
     transition: all .3s;
 }
 
@@ -3140,7 +3140,7 @@ Services Style
 }
 
 .service-item:hover {
-    background-image: url(../images/service-bg.jpg);
+    background-image: url(../images/service-bg.png);
     background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3625,7 +3625,7 @@ Footer Style
 */
 
 footer {
-    background-image: url(../images/footer-bg.png);
+    /* background-image: url(../images/footer-bg.png); */
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
