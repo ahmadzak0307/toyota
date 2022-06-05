@@ -104,7 +104,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: red;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -207,15 +207,55 @@ body {
 .white-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #4b8ef1 !important;
+  /*color: transparent !important;*/
   text-transform: capitalize;
   font-size: 15px;
-  background-color: #fff;
-  border-radius: 23px;
+  background-color: transparent;
+  border-radius: 10px;
+  width: 150%;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
   transition: all .5s;
+  box-sizing: border-box;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 32px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+  border: 1.5px solid #FFFFFF;
+  /*border-radius: 15px;*/
 }
+.fontbutton{
+  position: absolute;
+  left: 34.41%;
+  right: 34.86%;
+  top: 28.95%;
+  bottom: 28.95%;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 32px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+
+/* Rectangle */
+
+
+
 
 .white-button a i {
   margin-left: 5px;
@@ -223,7 +263,7 @@ body {
 }
 
 .white-button a:hover {
-  background-color: #4b8ef1;
+  background-color: transparent;
   color: #fff !important;
 }
 
@@ -278,7 +318,7 @@ body {
 
 .border-button a:hover {
   background-color: #4b8ef1;
-  color: #fff !important;
+  color: black !important;
 }
 
 
@@ -1016,7 +1056,7 @@ Services Style
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   background-color: #fff;
   border-radius: 10px;
-  border-top-right-radius: 50px;
+  /*border-top-right-radius: 50px;*/
   transition: all .3s;
 }
 
