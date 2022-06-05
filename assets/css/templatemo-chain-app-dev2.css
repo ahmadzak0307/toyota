@@ -2072,7 +2072,7 @@ responsive
     font-weight: 500;
   }
   .service-item {
-    text-align: center;
+    text-align: left;
     margin-bottom: 30px;
   }
   .about-us .box-item {
@@ -2176,7 +2176,7 @@ responsive
     display: block;
   }
   .service-item {
-    text-align: center;
+    text-align: left;
     padding: 30px;
   }
   .menu .thumb span.category {
