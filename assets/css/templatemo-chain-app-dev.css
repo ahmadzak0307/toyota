@@ -768,7 +768,7 @@ header
         width: 100%;
     }
     .header-area {
-        background-color: #fff;
+        background-color: #17233D;
         padding: 0px 15px;
         height: 100px;
         box-shadow: none;
@@ -1000,6 +1000,7 @@ Banner Style
 }
 
 .main-banner .left-content h2 {
+    color: white;
     z-index: 2;
     position: relative;
     font-weight: 700;
@@ -1010,7 +1011,7 @@ Banner Style
 
 .main-banner .left-content p {
     margin-bottom: 45px;
-    color: #2a2a2a;
+    color: white;
     font-weight: 400;
 }
 
@@ -1026,6 +1027,11 @@ Banner Style
     text-align: center;
     position: relative;
     z-index: 20;
+}
+
+.main-banner .right-image img #box1,
+#box2 {
+    position: absolute;
 }
 
 .main-banner .right-image img {
@@ -2041,6 +2047,7 @@ responsive
         padding-left: 20px;
     }
     .main-banner .left-content h2 {
+        color: white;
         z-index: 2;
         position: relative;
         font-weight: 700;
@@ -2055,13 +2062,13 @@ responsive
 
 @media (max-width: 992px) {
     .header-area {
-        background-color: #fff;
+        background-color: #17233D;
     }
     .main-banner:after {
         display: none;
     }
     .main-banner .left-content h2 {
-        color: #2a2a2a;
+        color: white;
         margin-right: 0;
     }
     .main-banner .left-content p {
@@ -2069,7 +2076,7 @@ responsive
         margin-right: 0;
     }
     .main-banner .left-content .white-button a {
-        background-color: #4b8ef1;
+        background-color: transparent;
         color: #fff !important;
     }
     form#contact {
