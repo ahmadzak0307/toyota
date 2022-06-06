@@ -2180,6 +2180,7 @@ p {
 img {
     width: 100%;
     overflow: hidden;
+    border-radius: 10%;
 }
 
 
@@ -3081,11 +3082,13 @@ Services Style
 }
 
 .service-item {
-    position: relative;
+    position: absolute;
     z-index: 1;
     padding: 30px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     background-color: linear-gradient(196.13deg, #17233D 7.02%, rgba(23, 35, 61, 0.25) 127.99%);
+    background-image: url(../images/card-mobil.png);
+    overflow: hidden;
     border-radius: 10px;
     /* border-top-right-radius: 50px; */
     transition: all .3s;
