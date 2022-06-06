@@ -329,7 +329,7 @@ header
 */
 
 .background-header {
-  background-color: #fff !important;
+  background-color: #2e6bd5 !important;
   height: 80px!important;
   border-bottom: none !important;
   position: fixed!important;
@@ -345,7 +345,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #4b8ef1;
+  color: #fff;
 }
 
 .background-header .nav li a.active {
@@ -357,7 +357,7 @@ header
   position: absolute;
   width: 100%;
   height: 1px;
-  background-color: #4b8ef1;
+  background-color: #2e6bd5;
   content: '';
   left: 50%;
   bottom: -20px;
@@ -369,7 +369,7 @@ header
 }
 
 .header-area {
-  background-color: transparent;
+  background-color: #2e6bd5;
   border-bottom: 1px solid rgba(42,42,42,0.2);
   position: absolute;
   left: 0px;
@@ -384,7 +384,7 @@ header
 
 .header-area .main-nav {
   min-height: 80px;
-  background: transparent;
+  background: #2e6bd5;
 }
 
 .header-area .main-nav .logo {
@@ -416,7 +416,7 @@ header
   float: right;
   margin-top: 30px;
   margin-right: 0px;
-  background-color: transparent;
+  background-color: #2e6bd5;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -454,7 +454,7 @@ header
   display: block;
   font-weight: 500;
   font-size: 15px;
-  color: #2a2a2a;
+  color: white;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -468,7 +468,7 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #4b8ef1!important;
+  color: white !important;
 }
 
 .header-area .main-nav .nav li:last-child a.active {
@@ -477,7 +477,7 @@ header
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #4b8ef1!important;
+  color: white !important;
   opacity: 1;
 }
 
@@ -490,7 +490,7 @@ header
   font-family: FontAwesome;
   content: "\f107";
   font-size: 12px;
-  color: #2a2a2a;
+  color: white;
   position: absolute;
   right: 18px;
   top: 12px;
@@ -522,7 +522,7 @@ header
 .header-area .main-nav .nav li.submenu ul li a {
   opacity: 1;
   display: block;
-  background: #f7f7f7;
+  background: #2e6bd5;
   color: #2a2a2a!important;
   padding-left: 20px;
   height: 40px;
@@ -538,8 +538,8 @@ header
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
-  background: #fff;
-  color: #4b8ef1!important;
+  background: #2e6bd5;
+  color: white !important;
   padding-left: 25px;
 }
 
@@ -579,7 +579,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #2a2a2a;
+  background-color: #2e6bd5;
   display: block;
   position: absolute;
   width: 30px;
@@ -590,7 +590,7 @@ header
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #2a2a2a;
+  background-color: #2e6bd5;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -599,7 +599,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #2a2a2a;
+  background-color: #2e6bd5;
   display: block;
   position: absolute;
   width: 30px;
@@ -610,7 +610,7 @@ header
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #2a2a2a;
+  background-color: #2e6bd5;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -642,7 +642,7 @@ header
 .header-area .main-nav .menu-trigger.active span,
 .header-area .main-nav .menu-trigger.active span:before,
 .header-area .main-nav .menu-trigger.active span:after {
-  background-color: transparent;
+  background-color: #2e6bd5;
   width: 100%;
 }
 
@@ -651,11 +651,11 @@ header
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #2a2a2a;
+  background-color: #2e6bd5;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-  background-color: #2a2a2a;
+  background-color: #2e6bd5;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -663,11 +663,11 @@ header
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #2a2a2a;
+  background-color: #2e6bd5;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #2a2a2a;
+  background-color: #2e6bd5;
 }
 
 .header-area.header-sticky {
@@ -695,7 +695,7 @@ header
 @media (max-width: 992px) {
   .header-area .main-nav .nav li:last-child  ,
   .background-header .main-nav .nav li:last-child {
-    color: #069;
+    color: white;
   }
   .header-area .main-nav .nav li:nth-child(6),
   .background-header .main-nav .nav li:nth-child(6) {
@@ -715,7 +715,7 @@ header
     margin-top: 80px !important;
   }
   .header-area .main-nav .logo {
-    color: #1e1e1e;
+    color: white;
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
@@ -726,7 +726,7 @@ header
     width: 100%;
   }
   .header-area {
-    background-color: #fff;
+    background-color: #2e6bd5;
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -766,7 +766,7 @@ header
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #fff;
+    background: #2e6bd5;
     border-bottom: 1px solid #e7e7e7;
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -776,11 +776,11 @@ header
     line-height: 50px !important;
     padding: 0px !important;
     border: none !important;
-    background: #f7f7f7 !important;
+    background: #2e6bd5 !important;
     color: #191a20 !important;
   }
   .header-area .main-nav .nav li a:hover {
-    background: #eee !important;
+    background: #2e6bd5 !important;
     color: #4b8ef1!important;
   }
   .header-area .main-nav .nav li.submenu ul {
@@ -2014,9 +2014,10 @@ responsive
   }
 }
 
+/*headerfirst*/
 @media (max-width: 992px) {
   .header-area {
-    background-color: #fff;
+    background-color: #2e6bd5;
   }
   .main-banner:after {
     display: none;
@@ -2030,7 +2031,7 @@ responsive
     margin-right: 0;
   }
   .main-banner .left-content .white-button a {
-    background-color: #4b8ef1;
+    background-color: #2e6bd5;
     color: #fff !important;
   }
   form#contact {
