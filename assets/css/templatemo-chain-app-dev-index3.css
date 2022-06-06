@@ -472,6 +472,10 @@ body {
     .background-header .main-nav .logo {
         line-height: 80px;
     }
+
+    .background-header .main-nav .logo-mid {
+        line-height: 80px;
+    }
     .background-header .main-nav .nav {
         margin-top: 20px !important;
     }
@@ -2407,11 +2411,11 @@ header
 }
 
 .header-area .main-nav .logo-mid {
-    float: left;
+    float: center;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
-    /* transition: all 0.3s ease 0s; */
+    transition: all 0.3s ease 0s;
 }
 
 .header-area .main-nav .logo {
@@ -2422,8 +2426,20 @@ header
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
+.header-area .main-nav .logo-mid {
+    line-height: 100px;
+    float: left;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
 
 .background-header .main-nav .logo {
+    line-height: 80px;
+}
+
+.background-header .main-nav .logo-mid {
     line-height: 80px;
 }
 
@@ -2954,9 +2970,9 @@ Banner Style
 */
 
 .main-banner {
+    background: #F5F5F5;
     background-repeat: no-repeat;
-    /* background-color: #17233D; */
-    background-image: url(../images/hero1.png);
+    /* background-image: url(../images/hero1.png); */
     background-size: cover;
     padding: 250px 120px 150px 120px;
     position: relative;
@@ -2965,7 +2981,7 @@ Banner Style
 
 .main-banner:after {
     content: '';
-    background-image: url(../images/slider-left-dec.png);
+    /* background-image: url(../images/slider-left-dec.png); */
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
