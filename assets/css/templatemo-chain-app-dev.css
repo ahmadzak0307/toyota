@@ -941,7 +941,7 @@ figcaption {
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
-        padding: 250px 120px 150px 120px;
+        padding: 150px 120px 150px 120px;
         position: relative;
         overflow: hidden;
     }
@@ -2948,7 +2948,7 @@ Banner Style
     background-repeat: no-repeat;
     background-color: #17233D;
     background-size: cover;
-    padding: 250px 120px 150px 120px;
+    padding: 150px 120px 150px 120px;
     position: relative;
     overflow: hidden;
 }
