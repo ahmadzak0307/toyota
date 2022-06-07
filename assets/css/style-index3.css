@@ -61,10 +61,8 @@ figcaption {
     border: 0;
     outline: 0;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;700&family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 body {
-    font-family: 'Chakra Petch', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -238,7 +236,7 @@ body {
     }
     html,
     body {
-        font-family: 'Roboto', 'Chakra Petch', 'Poppins', sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-weight: 400;
         background-color: #fff;
         -webkit-font-smoothing: antialiased;
@@ -277,7 +275,7 @@ body {
     html,
     body {
         background: #fff;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Poppins', sans-serif;
     }
      ::selection {
         background: #4b8ef1;
@@ -2096,7 +2094,6 @@ body {
             padding: 30px;
         }
     }
-    float: left;
 }
 
 .grid-item img {
@@ -2148,7 +2145,7 @@ hgroup {
 
 html,
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     background-color: #fff;
     -ms-text-size-adjust: 100%;
@@ -2197,7 +2194,7 @@ global styles
 html,
 body {
     background: #F5F5F5;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 ::selection {
@@ -4022,6 +4019,83 @@ a.btn_red {
     overflow: hidden;
 }
 
+/* Start self-Custom */
+.row .pilih_color {
+    display: flex;
+    justify-content: center;
+}
+
+.choose_color_hitam_nobor {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+    background: #000000;
+    border: 3px solid #473DD5;
+    border-radius: 100%;
+}
+
+.choose_color_hitam {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+    background: #000000;
+    border-radius: 100%;
+}
+
+.choose_color_abu {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+    background: #919191;
+    border-radius: 100%;
+}
+
+.choose_color_cokelat {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+    background: #663100;
+    border-radius: 100%;
+}
+
+.choose_color_abum {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+    background: #BABABA;
+    border-radius: 100%;
+}
+
+.choose_color_putih {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+    background: #FFFFFF;
+    border-radius: 100%;
+}
+
+.col-lg-12 .button_acc {
+    padding-top: 20px;
+    text-align: left;
+}
+
+.button-modif button {
+    margin: 6px;
+    border: 1.5px solid #000000;
+    border-radius: 15px;
+    Width: 353px;
+    Height: 50px;
+}
+
+.button-modif .button_v2 {
+    margin: 6px;
+    margin-top: 20px;
+    border-radius: 15px;
+    Width: 353px;
+    Height: 50px;
+    background: #0067F2;
+}
+/* End self-Custom*/
 
 /* \index.html
 ---------------------------------------------

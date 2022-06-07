@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index Bismillah</title>
+    <title>Production Plan</title>
     <!-- Bootstrap 
        CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,14 +30,6 @@
 
         .card-mobil {
             background-color: black;
-            /* .content-mobil {
-            padding: 60px 30px;
-            background-image: url(../images/card-mobil.png);
-            background-size: cover;
-            border-radius: 50px;
-            width: 100%;
-            height: auto;
-            background-repeat: no-repeat; */
         }
 
         .background {
@@ -63,13 +55,54 @@
             position: relative;
             right: 2%;
             left: 34.18%;
-            /* right: 1px; */
-            /* left: 40px; */
             top: 0px;
             bottom: 50px;
         }
 
-        /* .judul {} */
+        .line_exterior hr {
+            border: 3px;
+            color: rgb(0, 0, 0);
+        }
+
+        #line_konten hr {
+            border: 2px solid #ffffff;
+        }
+
+        .title_top #title_top {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 21px;
+            line-height: 31.5px;
+        }
+
+        h2 .title_top {
+            font-family: 'Chakra Petch';
+            font-size: 96px;
+            padding: 50px;
+            padding: 0%;
+        }
+
+        .exterior {
+            width: 100%;
+            height: 100%;
+        }
+
+        .exterior_margin {
+            padding: 10%;
+            padding-bottom: 5%;
+            padding-top: 0%;
+        }
+
+        .title_exterior {
+            font-family: 'Raleway';
+            font-style: italic;
+        }
+
+        .exterior_margin .line_ {
+            float: right;
+            padding: 0%;
+        }
     </style>
 </head>
 
@@ -112,12 +145,6 @@
                                             fill="white" />
                                     </svg>
                                 </a></li>
-
-                            <!-- <li>
-                                <div class="gradient-button"><a id="modal_trigger" href="#modal"><i
-                                            class="fa fa-sign-in-alt"></i> Sign
-                                        In Now</a></div>
-                                    </li> -->
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -128,66 +155,64 @@
             </div>
         </div>
     </header>
+    <!-- ***** Header Area End ***** -->
 
+    <!-- ***** Konten Area Start ***** -->
     <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="row">
-                        <div class="col-lg-6 align-self-center">
-                            <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s"
-                                data-wow-delay="1s">
-                                <div class="row">
-                                    <div class="col-lg-12 judul">
-                                        <hr style="border: 3px; color: white;">
-                                        <br>
-                                        <p style="font-family: 'Poppins';
-                                            font-style: normal;
-                                            font-weight: 700;
-                                            font-size: 21px;
-                                            line-height: 32px;">NEW</p>
+            <div class="row col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6 align-self-center">
+                        <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s"
+                            data-wow-delay="1s">
+                            <div class="row">
+                                <div class="col-lg-12 judul">
+                                    <hr id="line_konten" style="color: white;">
+                                    <br>
+                                    <p class="title_top" id="title_top">NEW</p>
 
-                                        <h2 style="font-size:96px;padding: 50px;padding: 0%;">FORTUNER
-                                        </h2>
-                                        <br>
-                                        <p style="text-align: right;font-family: 'Poppins';
-                                            font-style: normal;
-                                            font-weight: 400;
-                                            font-size: 21px;
-                                            line-height: 32px;">LEAD YOU TO GREATNESS</p>
-                                        <hr style=" border: 3px; color: white; ">
-                                        <p>Starting From
-                                            <br>Rp524.100.000</p>
-                                        </span>
-                                        <div class="col-lg-12" style="color: white;">
-                                            <div class="row">
-                                                <div class="col-lg-4">
-                                                    <p>Engine</p>
-                                                    <h3>2.8L</h3>
-                                                    <span>Diesel</span>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <p>Engine</p>
-                                                    <h3>2.8L</h3>
-                                                    <span>Diesel</span>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <p>Engine</p>
-                                                    <h3>2.8L</h3>
-                                                    <span>Diesel</span>
-                                                </div>
+                                    <h2 class=" title_top" style="font-family: 'Chakra Petch';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 96px;">FORTUNER
+                                    </h2>
+                                    <br>
+                                    <p style=" text-align: right;font-family: 'Poppins' ; font-style: normal;
+                                        font-weight: 400; font-size: 21px; line-height: 32px;">LEAD YOU TO GREATNESS
+                                    </p>
+                                    <hr style=" border: 3px; color: white; ">
+                                    <div></div>
+                                    <p>Starting From
+                                        <br>Rp524.100.000</p>
+                                    </span>
+                                    <div class="col-lg-12" style="color: white;">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <p>Engine</p>
+                                                <h3>2.8L</h3>
+                                                <span>Diesel</span>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <p>Engine</p>
+                                                <h3>2.8L</h3>
+                                                <span>Diesel</span>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <p>Engine</p>
+                                                <h3>2.8L</h3>
+                                                <span>Diesel</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <br>
-                                <br>
-                                <div class="row">
-                                    <div class=" col-lg-12 ">
-                                        <div class=" white-button first-button scroll-to-section">
-                                            <a style="width: 537px;text-align: center;" href=" #contact ">Explore
-                                                FORTUNER</a>
-                                        </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="row">
+                                <div class=" col-lg-12 ">
+                                    <div class=" white-button first-button scroll-to-section">
+                                        <a style="width: 537px;text-align: center;" href=" #contact ">Explore
+                                            FORTUNER</a>
                                     </div>
                                 </div>
                             </div>
@@ -198,19 +223,22 @@
         </div>
     </div>
     </div>
+    </div>
     <br>
     <br>
     <br>
 
-    <div class="exterior" style="width: 100%; height: 100%;">
-        <div class="col-lg-12" style="padding: 10%;padding-bottom: 5%;padding-top: 0%;">
+    <!-- ***** Exterior Area Start ***** -->
+    <div class="exterior">
+        <div class="col-lg-12 exterior_margin">
             <div style="width: 100%;">
-                <div class="col-lg-3">
-                    <h2>Exterior</h2>
-                    <h2> &nbsp &nbsp &nbsp &nbsp highlight</h2>
-                </div>
-                <div class="col-lg-9" style="float: right; padding: 0%;">
-                    <hr>
+                <div class="row">
+                    <div class="col-lg-3 exterior_card_title">
+                        <h2><b>Exterior</b></h2>
+                        <h2 class="title_exterior"> &nbsp &nbsp &nbsp highlight</h2>
+                    </div>
+                    <div class="col-lg-9 line_">
+                    </div>
                 </div>
             </div>
         </div>
@@ -241,7 +269,8 @@
     <div class="col-lg-12" style="padding-left:15%;padding-top: 20%;">
         <div class=" row">
             <div class="col-lg-1">
-                <h1 style="font-size: 96px;">1</h1>
+                <h1 style="font-size: 96px;font-family: 'Raleway';
+                font-style: italic;">1</h1>
             </div>
             <div class="col-lg-11" style="padding-top:0%">
                 <h5>Dauntless new front bumper spoiler & grille (VRZ) with LED and Foglamp (All type)</h5>
@@ -249,15 +278,20 @@
         </div>
     </div>
     </div>
+    <!-- ***** Exterior Area End ***** -->
+
+    <!-- ***** Interior Area Start ***** -->
     <div class="col-lg-12" style="padding: 10%; padding-top: 0%;padding-bottom: 0%;">
         <div style="width: 100%;">
-            <div class="row">
+            <div class="row" style="display: flex;justify-content: space-between;">
                 <div class="col-lg-3">
-                    <h2>Luxurious</h2>
-                    <h2> &nbsp &nbsp &nbsp &nbsp Interior</h2>
+                    <h2 class="title_exterior">Luxurious</h2>
+                    <h2><b>&nbsp &nbsp &nbsp &nbsp Interior</b></h2>
                 </div>
                 <div class="col-lg-3">
-                    <p style="width: 400px;height: 108px;left: 906px;top: 1906px;color: #000000;">Switch to Eco-mode for
+                    <p
+                        style="width: 400px;height: 108px;left: 906px;top: 1906px;color: #000000; padding-right: 45%;text-align: justify;">
+                        Switch to Eco-mode for
                         smooth and
                         fuel efficiency driving experience or Power-mode
                         for
@@ -266,7 +300,7 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-12" style="padding: 10%; padding-top: 0%;">
+    <div class="col-lg-12" style="padding: 10%; padding-top: 2%;">
         <div class="row">
             <div class="col-lg-4">
                 <div class="">
@@ -286,9 +320,12 @@
             </div>
         </div>
     </div>
+    <!-- ***** Interior Area End ***** -->
+
+    <!-- ***** Beyond Safety Area Start ***** -->
     <div class="col-lg-12" style="padding: 10%; padding-top: 1%;padding-bottom: 0%;">
         <div style="display: flex;justify-content: flex-end;">
-            <h2>Beyond Safety</h2>
+            <h2><b>Beyond Safety</b></h2>
         </div>
         <p style="display: flex;justify-content: flex-end;"> Designed to provide maximum protection for every
             passenger.</p>
@@ -323,7 +360,9 @@
             </div>
         </div>
     </div>
+    <!-- ***** Beyond Safety Area End ***** -->
 
+    <!-- ***** Variants Area Start ***** -->
     <div class="col-lg-12" style="padding: 10%; padding-top: 1%;">
         <div style="display: flex;justify-content: center;">
             <h3>New Fortuner Variants</h3>
@@ -344,7 +383,18 @@
     </div>
     <div class="col-lg-12" style="padding: 10%; padding-top: 1%;padding-bottom: 2%;">
         <div style="display: flex;justify-content: center;">
-            <h3>VRZ Type</h3>
+            <svg width="20" height="34" viewBox="0 0 20 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M18.7631 0.657962C18.5551 0.449397 18.308 0.283924 18.0359 0.17102C17.7638 0.0581161 17.4721 0 17.1775 0C16.8829 0 16.5912 0.0581161 16.3191 0.17102C16.0471 0.283924 15.7999 0.449397 15.5919 0.657962L0.523962 15.7259C0.357868 15.8916 0.226095 16.0885 0.136187 16.3053C0.0462783 16.522 0 16.7544 0 16.989C0 17.2237 0.0462783 17.456 0.136187 17.6727C0.226095 17.8895 0.357868 18.0864 0.523962 18.2521L15.5919 33.32C16.4698 34.198 17.8852 34.198 18.7631 33.32C19.641 32.4421 19.641 31.0267 18.7631 30.1488L5.6123 16.998L18.781 3.82921C19.641 2.9513 19.641 1.53588 18.7631 0.657962Z"
+                    fill="black" />
+            </svg>
+            <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp VRZ Type &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h3><svg
+                width="20" height="34" viewBox="0 0 20 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M0.660702 33.3206C0.868738 33.5291 1.11588 33.6946 1.38796 33.8075C1.66005 33.9204 1.95174 33.9785 2.24632 33.9785C2.5409 33.9785 2.83259 33.9204 3.10468 33.8075C3.37677 33.6946 3.62391 33.5291 3.83195 33.3206L18.8999 18.2526C19.066 18.0869 19.1977 17.89 19.2876 17.6733C19.3775 17.4565 19.4238 17.2242 19.4238 16.9895C19.4238 16.7549 19.3775 16.5225 19.2876 16.3058C19.1977 16.089 19.066 15.8921 18.8999 15.7264L3.83195 0.658472C2.95403 -0.219447 1.53862 -0.219447 0.660699 0.658472C-0.217219 1.53639 -0.217219 2.9518 0.660699 3.82972L13.8115 16.9806L0.642784 30.1493C-0.217217 31.0272 -0.217217 32.4426 0.660702 33.3206Z"
+                    fill="black" />
+            </svg>
+
         </div>
         <div style="display: flex;justify-content: center;">
             <p> Starting From</p>
@@ -353,8 +403,9 @@
             <h6> Rp524.100.000</h6>
         </div>
     </div>
+    <!-- ***** Variants Area End ***** -->
 
-    <!-- ////////// -->
+    <!-- ***** Card-Price Area Start ***** -->
     <style type="text/css">
         .line {
             width: 100%;
@@ -364,7 +415,6 @@
     </style>
     <div class="container">
         <div class="row">
-
             <div class="col-lg-4">
                 <div class="col-lg-12 cols">
                     <div class="servicesstyle-item first-servicesstyle">
@@ -446,6 +496,7 @@
         </div>
     </div>
     <div class="col-lg-12" style="padding: 10%; padding-top: 1%;padding-bottom: 2%;"></div>
+    <!-- ***** Card-Price Area End ***** -->
 
     </div>
 </body>
