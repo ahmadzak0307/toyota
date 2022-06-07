@@ -4088,9 +4088,13 @@ a.btn_red {
 }
 
 .button-modif .button_v2 {
+    color: white;
     margin: 6px;
     margin-top: 20px;
+    font-size: 18px;
     border-radius: 15px;
+    border:none;
+    font-weight: 500;
     Width: 353px;
     Height: 50px;
     background: #0067F2;

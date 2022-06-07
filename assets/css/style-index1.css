@@ -62,13 +62,6 @@ figcaption {
     outline: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,700;1,400&family=Poppins:wght@400;500;700&family=Raleway:ital,wght@0,300;0,400;0,500;1,500&display=swap');
-/* body {
-    font-family: 'Chakra Petch', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Raleway', sans-serif;
-} */
-
 
 /* clear fix */
 
@@ -87,13 +80,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .grid-item {
-    /*
     
-    TemplateMo 570 Chain App Dev
-    
-    https://templatemo.com/tm-570-chain-app-dev
-    
-    */
     /* ---------------------------------------------
     Table of contents
     ------------------------------------------------
@@ -239,11 +226,10 @@ font-family: 'Raleway', sans-serif;
     }
     html,
     body {
-        /* font-family: 'Roboto', 'Chakra Petch', 'Poppins', sans-serif; */
-        /* font-family: 'Chakra Petch', sans-serif; */
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: 400;
         background-color: #fff;
+        -ms-text-size-adjust: 100%;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
@@ -280,8 +266,7 @@ font-family: 'Raleway', sans-serif;
     html,
     body {
         background: #fff;
-        /* font-family: 'Roboto', sans-serif; */
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
      ::selection {
         background: #4b8ef1;
@@ -406,7 +391,7 @@ font-family: 'Raleway', sans-serif;
     --------------------------------------------- 
     */
     .background-header {
-        background-color: #17233D !important;
+        /* background-color: #17233D !important; */
         /* background-color: #fff !important; */
         height: 80px!important;
         border-bottom: none !important;
@@ -465,9 +450,9 @@ font-family: 'Raleway', sans-serif;
         -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s;
     }
-    .header-area .main-nav .logo-mid {
+    .header-area .main-nav .logo {
         line-height: 100px;
-        float: center;
+        float: left;
         -webkit-transition: all 0.3s ease 0s;
         -moz-transition: all 0.3s ease 0s;
         -o-transition: all 0.3s ease 0s;
@@ -955,7 +940,7 @@ font-family: 'Raleway', sans-serif;
     }
     .main-banner:after {
         content: '';
-        background-image: url(../images/hero2.png);
+        background-image: url(../images/slider-left-dec.png);
         background-repeat: no-repeat;
         background-size: contain;
         position: absolute;
@@ -1053,6 +1038,7 @@ font-family: 'Raleway', sans-serif;
         padding: 30px;
         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
         background: linear-gradient(196.13deg, #17233D 7.02%, rgba(23, 35, 61, 0.25) 127.99%);
+
         border-radius: 10px;
         /*border-top-right-radius: 50px;*/
         transition: all .3s;
@@ -1108,16 +1094,11 @@ font-family: 'Raleway', sans-serif;
     .service-item:hover {
         /*background-image: url(../images/service-bg.jpg);*/
         background: linear-gradient(196.13deg, #17233D 7.02%, rgba(23, 35, 61, 0.25) 127.99%);
+
         /*background-position: right top;*/
         /*background-repeat: no-repeat;*/
         /*background-size: cover;*/
     }
-
-
-    /* 
-
-
-
     /*
     ---------------------------------------------
     About Us
@@ -1141,7 +1122,7 @@ font-family: 'Raleway', sans-serif;
     .about-us .box-item {
         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.07);
         padding: 10px 30px;
-        background-color: black;
+        background-color:black;
         border-radius: 40px;
         margin-bottom: 30px;
     }
@@ -2102,7 +2083,6 @@ font-family: 'Raleway', sans-serif;
             padding: 30px;
         }
     }
-    float: left;
 }
 
 .grid-item img {
@@ -2154,9 +2134,7 @@ hgroup {
 
 html,
 body {
-    /* font-family: 'Roboto', sans-serif;
-     */
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     background-color: #fff;
     -ms-text-size-adjust: 100%;
@@ -2192,7 +2170,6 @@ p {
 img {
     width: 100%;
     overflow: hidden;
-    border-radius: 10%;
 }
 
 
@@ -2204,10 +2181,8 @@ global styles
 
 html,
 body {
-    background: #F5F5F5;
-    /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Poppins', sans-serif;
-
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
 ::selection {
@@ -2395,6 +2370,8 @@ header
 }
 
 .header-area {
+    /* background-color: transparent; */
+    /* background-color: #17233D; */
     border-bottom: 1px solid rgba(42, 42, 42, 0.2);
     position: absolute;
     left: 0px;
@@ -2418,14 +2395,6 @@ header
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-}
-
-.header-area .main-nav .logo-mid {
-    float: left;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    /* transition: all 0.3s ease 0s; */
 }
 
 .header-area .main-nav .logo {
@@ -2685,7 +2654,7 @@ header
     -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
     -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
     transform: translateY(6px) translateX(1px) rotate(45deg);
-    /* background-color: #2a2a2a; */
+    background-color: #2a2a2a;
     color: white;
 }
 
@@ -2969,7 +2938,7 @@ Banner Style
 
 .main-banner {
     background-repeat: no-repeat;
-    background-image: url(../images/hero1.png);
+    background-color: #17233D;
     background-size: cover;
     padding: 150px 120px 150px 120px;
     position: relative;
@@ -3036,6 +3005,8 @@ Banner Style
     background-color: transparent;
     color: #fff !important;
     border: 2px solid white;
+    width: 500px;
+    text-align: center;
 }
 
 
@@ -3095,13 +3066,11 @@ Services Style
 }
 
 .service-item {
-    position: absolute;
+    position: relative;
     z-index: 1;
     padding: 30px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     background-color: linear-gradient(196.13deg, #17233D 7.02%, rgba(23, 35, 61, 0.25) 127.99%);
-    background-image: url(../images/card-mobil.png);
-    overflow: hidden;
     border-radius: 10px;
     /* border-top-right-radius: 50px; */
     transition: all .3s;
@@ -3167,7 +3136,9 @@ Services Style
     background-image: url(../images/service-icon-hover-04.png);
 }
 
-.service-item:hover {}
+.service-item:hover {
+  
+}
 
 
 /*
@@ -4019,6 +3990,182 @@ a.btn_red {
     overflow: hidden;
 }
 
+/* Start self-Custom */
+
+    .imagecls {
+        width: 500px;
+    }
+
+    .imageoverflow {
+        width: 351px;
+        position: relative;
+        right: 2%;
+        left: 34.18%;
+
+        top: 0px;
+        bottom: 50px;
+    }
+
+    div.static {
+        position: absolute;
+        border: 0px solid #73AD21;
+        left: 4%;
+        right: 20px;
+        top: 10.67%;
+        bottom: 50px;
+        color: white;
+        font-size: 28px;
+    }
+
+    div.static-mid {
+        position: relative;
+        border: 0px solid #73AD21;
+        left: 4%;
+        right: 74.36%;
+        top: 71.67%;
+        bottom: 19.33%;
+        /* right: 20px;
+        top: 0px;
+        bottom: 50px; */
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    div.static-bottom {
+        position: absolute;
+        left: 7.82%;
+        font-weight: 500;
+        font-size: 21px;
+        color: white;
+    }
+
+    div.text-button-right a {
+        font-weight: 400;
+        font-size: 16px;
+        position: relative;
+        left: 72.18%;
+        border: none;
+        right: 7.64%;
+        top: 83%;
+        bottom: 9%;
+        color: white;
+        line-height: 24px;
+    }
+
+    .button-pilih a {
+        display: inline-block;
+        padding: 10px 20px;
+        color: #ACB5BD;
+        text-transform: capitalize;
+        font-size: 15px;
+        border-radius: 15px;
+        border: 1.5px solid #ACB5BD;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+        transition: all .5s;
+        height: 76px;
+        width: 219px;
+        left: 0px;
+        top: 0px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .button-pilih #typemobil {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1.5px solid #ACB5BD;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    .button-title a {
+        display: inline-block;
+        padding: 10px 20px;
+        color: #000000;
+        text-transform: capitalize;
+        font-size: 15px;
+        border-radius: 15px;
+        border: 0px solid #ACB5BD;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+        transition: all .5s;
+        height: 76px;
+        width: 150px;
+        left: 0px;
+        top: 0px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .card-mobil {
+        position: absolute;
+        background: linear-gradient(196.13deg, #17233D 7.02%, rgba(23, 35, 61, 0.25) 127.99%);
+        box-shadow: 7px 5px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 25px;
+    }
+
+    .card-mobil h4 {
+        color: #FFFFFF;
+        font-size: 28px;
+        left: 4%;
+        right: 52.73%;
+        top: 10.67%;
+        bottom: 61.33%;
+    }
+
+    .table-flow {
+        border-spacing: 0;
+        width: 100%;
+        border: 0px solid #ddd;
+    }
+
+    th {
+        text-align: left;
+        padding: 8px;
+    }
+
+    .bgcolor {
+        background: linear-gradient(196.13deg, #17233D 7.02%, rgba(23, 35, 61, 0.25) 127.99%);
+        border-radius: 15px !important;
+        Width: 550px;
+        Height: 300px;
+    }
+
+    .border-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        border: 1px solid #000000;
+        text-align: center;
+    }
+
+    .border-icon img {
+        Width: 13px;
+        Height: 20px;
+    }
+
+    .icon-sosmed {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .design_footer{
+        background-color: #17233D; text-align:center;height: 62px;
+    }
+
+    .card_sosmed{
+        text-align: center;font-weight: 500;
+        font-size: 16px;
+    }
+
+/* End self-Custom */
 
 /* \index.html
 ---------------------------------------------
