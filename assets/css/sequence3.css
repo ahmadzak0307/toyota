@@ -1,0 +1,94 @@
+body{
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lingkaran-pertama, .lingkaran-kedua, .lingkaran-ketiga, .konten, .kotak-ketiga
+{
+    position: absolute;
+    height: 100px;
+}
+
+.lingkaran-pertama{
+    position: relative;
+
+    width: 520px;
+    height: 520px;
+    border-style: dashed;
+    border-radius: 100%;
+    z-index: 1;
+    left: 0px;
+top: 27px;
+border: 3px dashed #05062A;
+display: flex;
+justify-content:center;
+align-items:center; 
+
+}
+
+.lingkaran-kedua{
+    width: 444px;
+    height: 444px;
+    border-radius: 100%;
+    border: 10px solid #DC3447;
+z-index: 2;
+/* left: 38px;
+top: 65px;margin: auto; */
+display: flex;
+justify-content:center;
+align-items:center;
+}
+
+.lingkaran-ketiga{
+    width: 350px;
+height: 349px;
+/* left: 85px;
+top: 113px; */
+background: #05062A;
+border-radius: 100%;
+z-index: 3;
+display: flex;
+justify-content:center;
+align-items:center;
+}
+
+.kotak-ketiga{
+    width: 292px;
+height: 195px;
+/* left: 85px;
+top: 113px; */
+background: #05062A;
+border: 20px solid;
+border-radius: 8px;
+z-index: 3;
+display: flex;
+justify-content:center;
+align-items:center;
+}
+
+.konten{
+    display: flex;
+justify-content:center;align-items:center;flex-direction:column;
+z-index: 4;
+
+}
+
+.konten img{
+    Height:60.06px;
+}
+
+.konten h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    margin: 0%;
+}
+
+.konten h2{
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    margin: 0%;
+}
