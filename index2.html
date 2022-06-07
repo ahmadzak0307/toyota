@@ -113,33 +113,23 @@
             top: 10px;
         }
 
-        .table_spek {
+        .sticky {
+            position: fixed;
+            top: 0;
             width: 100%;
-            color: white;
-            border: none;
+            background: linear-gradient(105deg, rgba(0, 0, 255) 0%, rgba(18, 1, 100, 100) 0%, rgba(0, 0, 255, 0) 100%);
+            /*opacity: 0.1;*/
         }
 
-        .td_isi {
-            font-size: 38px;
-            width: 10px;
-        }
-
-        .td_title {
-            font-size: 10px;
-            color: #8A8A8A;
-            text-align: left;
-        }
-
-        .card_harga p {
-            padding-top: 3%;
-            padding-bottom: 3%;
+        .sticky+.content {
+            padding-top: 60px;
         }
     </style>
 </head>
 
 <body>
     <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <header class="header-area sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
         <div class="container">
             <div class="row">
                 <div class="col-12">
