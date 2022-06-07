@@ -80,14 +80,7 @@ figcaption {
 }
 
 .grid-item {
-    css lamaaaaa
-    /*
     
-    TemplateMo 570 Chain App Dev
-    
-    https://templatemo.com/tm-570-chain-app-dev
-    
-    */
     /* ---------------------------------------------
     Table of contents
     ------------------------------------------------
@@ -2090,7 +2083,6 @@ figcaption {
             padding: 30px;
         }
     }
-    float: left;
 }
 
 .grid-item img {
@@ -2337,7 +2329,7 @@ header
 */
 
 .background-header {
-    background-color: #17233D !important;
+    /* background-color: #17233D !important; */
     /* background-color: #fff !important; */
     height: 80px!important;
     border-bottom: none !important;
@@ -3013,6 +3005,8 @@ Banner Style
     background-color: transparent;
     color: #fff !important;
     border: 2px solid white;
+    width: 500px;
+    text-align: center;
 }
 
 
@@ -3996,6 +3990,182 @@ a.btn_red {
     overflow: hidden;
 }
 
+/* Start self-Custom */
+
+    .imagecls {
+        width: 500px;
+    }
+
+    .imageoverflow {
+        width: 351px;
+        position: relative;
+        right: 2%;
+        left: 34.18%;
+
+        top: 0px;
+        bottom: 50px;
+    }
+
+    div.static {
+        position: absolute;
+        border: 0px solid #73AD21;
+        left: 4%;
+        right: 20px;
+        top: 10.67%;
+        bottom: 50px;
+        color: white;
+        font-size: 28px;
+    }
+
+    div.static-mid {
+        position: relative;
+        border: 0px solid #73AD21;
+        left: 4%;
+        right: 74.36%;
+        top: 71.67%;
+        bottom: 19.33%;
+        /* right: 20px;
+        top: 0px;
+        bottom: 50px; */
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    div.static-bottom {
+        position: absolute;
+        left: 7.82%;
+        font-weight: 500;
+        font-size: 21px;
+        color: white;
+    }
+
+    div.text-button-right a {
+        font-weight: 400;
+        font-size: 16px;
+        position: relative;
+        left: 72.18%;
+        border: none;
+        right: 7.64%;
+        top: 83%;
+        bottom: 9%;
+        color: white;
+        line-height: 24px;
+    }
+
+    .button-pilih a {
+        display: inline-block;
+        padding: 10px 20px;
+        color: #ACB5BD;
+        text-transform: capitalize;
+        font-size: 15px;
+        border-radius: 15px;
+        border: 1.5px solid #ACB5BD;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+        transition: all .5s;
+        height: 76px;
+        width: 219px;
+        left: 0px;
+        top: 0px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .button-pilih #typemobil {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1.5px solid #ACB5BD;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    .button-title a {
+        display: inline-block;
+        padding: 10px 20px;
+        color: #000000;
+        text-transform: capitalize;
+        font-size: 15px;
+        border-radius: 15px;
+        border: 0px solid #ACB5BD;
+        font-weight: 500;
+        letter-spacing: 0.3px;
+        transition: all .5s;
+        height: 76px;
+        width: 150px;
+        left: 0px;
+        top: 0px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .card-mobil {
+        position: absolute;
+        background: linear-gradient(196.13deg, #17233D 7.02%, rgba(23, 35, 61, 0.25) 127.99%);
+        box-shadow: 7px 5px 15px rgba(0, 0, 0, 0.5);
+        border-radius: 25px;
+    }
+
+    .card-mobil h4 {
+        color: #FFFFFF;
+        font-size: 28px;
+        left: 4%;
+        right: 52.73%;
+        top: 10.67%;
+        bottom: 61.33%;
+    }
+
+    .table-flow {
+        border-spacing: 0;
+        width: 100%;
+        border: 0px solid #ddd;
+    }
+
+    th {
+        text-align: left;
+        padding: 8px;
+    }
+
+    .bgcolor {
+        background: linear-gradient(196.13deg, #17233D 7.02%, rgba(23, 35, 61, 0.25) 127.99%);
+        border-radius: 15px !important;
+        Width: 550px;
+        Height: 300px;
+    }
+
+    .border-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        border: 1px solid #000000;
+        text-align: center;
+    }
+
+    .border-icon img {
+        Width: 13px;
+        Height: 20px;
+    }
+
+    .icon-sosmed {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .design_footer{
+        background-color: #17233D; text-align:center;height: 62px;
+    }
+
+    .card_sosmed{
+        text-align: center;font-weight: 500;
+        font-size: 16px;
+    }
+
+/* End self-Custom */
 
 /* \index.html
 ---------------------------------------------
