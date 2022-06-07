@@ -62,11 +62,12 @@ figcaption {
     outline: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;700&family=Poppins:wght@400;500;700&display=swap');
-body {
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,700;1,400&family=Poppins:wght@400;500;700&family=Raleway:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+/* body {
     font-family: 'Chakra Petch', sans-serif;
-    font-family: 'Poppins', sans-serif;
-}
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+} */
 
 
 /* clear fix */
@@ -238,7 +239,9 @@ body {
     }
     html,
     body {
-        font-family: 'Roboto', 'Chakra Petch', 'Poppins', sans-serif;
+        /* font-family: 'Roboto', 'Chakra Petch', 'Poppins', sans-serif; */
+        /* font-family: 'Chakra Petch', sans-serif; */
+        font-family: 'Poppins', sans-serif;
         font-weight: 400;
         background-color: #fff;
         -webkit-font-smoothing: antialiased;
@@ -277,7 +280,8 @@ body {
     html,
     body {
         background: #fff;
-        font-family: 'Roboto', sans-serif;
+        /* font-family: 'Roboto', sans-serif; */
+        font-family: 'Poppins', sans-serif;
     }
      ::selection {
         background: #4b8ef1;
@@ -2150,7 +2154,9 @@ hgroup {
 
 html,
 body {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif;
+     */
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     background-color: #fff;
     -ms-text-size-adjust: 100%;
@@ -2199,7 +2205,9 @@ global styles
 html,
 body {
     background: #F5F5F5;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+
 }
 
 ::selection {
