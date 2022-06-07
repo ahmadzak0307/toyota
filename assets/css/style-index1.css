@@ -391,7 +391,7 @@ figcaption {
     --------------------------------------------- 
     */
     .background-header {
-        background-color: #17233D !important;
+        /* background-color: #17233D !important; */
         /* background-color: #fff !important; */
         height: 80px!important;
         border-bottom: none !important;
@@ -2329,7 +2329,7 @@ header
 */
 
 .background-header {
-    /* background-color: #17233D !important; */
+    background-color: #17233D !important;
     /* background-color: #fff !important; */
     height: 80px!important;
     border-bottom: none !important;
@@ -2654,7 +2654,7 @@ header
     -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
     -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
     transform: translateY(6px) translateX(1px) rotate(45deg);
-    /* background-color: #2a2a2a; */
+    background-color: #2a2a2a;
     color: white;
 }
 
